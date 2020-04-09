@@ -5,7 +5,7 @@ node {
         git "https://github.com/marekknap/Beginning-Jenkins.git"
     }
     stage("setup"){
-        sh 'apk update' ; apk add make python py-pip' 
+        sh 'apk update ; apk add make python py-pip' 
     }
 
     
